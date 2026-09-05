@@ -1,8 +1,8 @@
-# 参考编译流程 https://github.com/P3TERX/Actions-OpenWrt
+参考编译流程 https://github.com/P3TERX/Actions-OpenWrt
 
-# 参考编译流程 https://github.com/firkerword/openwrt-Exclusive
+参考编译流程 https://github.com/firkerword/openwrt-Exclusive
 
-# 参考编译流程 https://github.com/esirplayground/AutoBuild-OpenWrt
+参考编译流程 https://github.com/esirplayground/AutoBuild-OpenWrt
 
 编译源码使用
 
