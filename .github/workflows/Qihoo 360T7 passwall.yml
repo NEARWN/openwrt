@@ -83,7 +83,7 @@ jobs:
     
     - name: 加载配置文件
       env:
-        CONFIG_FILE: 'config/360T7pw.config'
+        CONFIG_FILE: 'config/360T7p.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         cd openwrt && make defconfig
