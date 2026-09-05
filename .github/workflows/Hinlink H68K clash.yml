@@ -74,8 +74,7 @@ jobs:
       working-directory: ./openwrt
       run: |
         ./scripts/feeds update -a
-        ./scripts/feeds install -a
-        ./scripts/feeds install -a   
+        ./scripts/feeds install -a         
         
     - name: 自定义设置
       working-directory: ./openwrt
@@ -91,7 +90,7 @@ jobs:
     
     - name: 加载配置文件
       env:
-        CONFIG_FILE: 'config/k68kcla.config'
+        CONFIG_FILE: 'config/k68kc.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         cd openwrt && make defconfig
