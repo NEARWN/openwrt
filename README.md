@@ -1,8 +1,8 @@
-云编译方法来自P3TERX，esirplayground
+# 参考编译流程 https://github.com/P3TERX/Actions-OpenWrt
 
-https://github.com/P3TERX/Actions-OpenWrt
+# 参考编译流程 https://github.com/firkerword/openwrt-Exclusive
 
-https://github.com/esirplayground/AutoBuild-OpenWrt
+# 参考编译流程 https://github.com/esirplayground/AutoBuild-OpenWrt
 
 编译源码使用
 
