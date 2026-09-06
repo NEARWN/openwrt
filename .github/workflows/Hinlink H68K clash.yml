@@ -70,7 +70,6 @@ jobs:
     - name: 自定义设置
       working-directory: ./openwrt
       run: |       
-        rm -rf feeds/helloworld
         rm -rf feeds/packages/net/{xray-core,v2ray-geodata,sing-box,chinadns-ng,dns2socks,hysteria,ipt2socks,microsocks,naiveproxy,shadowsocks-rust,shadowsocksr-libev,simple-obfs,tcping,v2ray-plugin,xray-plugin,geoview,shadow-tls}
         git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
         rm -rf feeds/luci/applications/luci-app-passwall        
